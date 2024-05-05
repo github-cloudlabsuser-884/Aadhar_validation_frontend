@@ -1,0 +1,22 @@
+/* MainContent.css */
+
+.main-content {
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  

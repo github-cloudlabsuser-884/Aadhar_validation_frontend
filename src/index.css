@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.logo-text {
+  font-family: Arial, sans-serif; /* Example font family */
+  font-size: 18px; /* Example font size */
+  font-weight: bold; /* Example font weight */
+  color: #333; /* Example text color */
+  text-transform: uppercase; /* Example text transformation */
+  /* Add any other styles you want */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,287 @@
+/* Add this CSS to your App.css file or any other CSS file you're using */
+.help{
+  background-color:#63a3e8 ;
+}
+.bot-icon,.user-icon {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+}
+
+/* chatbot style */
+.chat-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  max-width: 90%;
+  height: 500px;
+  max-height: 90%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Existing styles... */
+.message-time {
+  font-size: 9px; /* Adjust size as needed */
+  font-style:normal; /* Add italic font effect */
+  color: #666; /* Adjust color as needed */
+  margin-top: 20px; /* Add some margin for spacing */
+  margin-left: 2px;
+}
+.input-field {
+  border-radius: 10px; /* Adjust the value to change the roundness */
+  /* Add any other styling you want */
+}
+.chatbot-messages {
+  /* background-image: url('https://konverge.ai/wp-content/uploads/2022/04/AI-ML-Scaling.png');  */
+  background-size: cover; /* Cover the entire element with the background image */
+  padding: 20px; /* Add padding to create some space between messages and the window edges */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  overflow-y: auto; /* Optional: Add overflow-y to enable vertical scrolling if messages exceed the container height */
+  max-height: 400px; /* Optional: Set a maximum height to limit the message window's height */
+}
+
+/* App.css */
+
+/* Style the scrollbar */
+.chatbot-messages {
+  overflow-y: scroll;
+}
+
+/* Hide the scrollbar */
+.chatbot-messages::-webkit-scrollbar {
+  width: 0; /* This will hide the scrollbar in WebKit browsers */
+}
+
+/* Optional: Style for scrollbar track */
+.chatbot-messages::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the scrollbar track */
+}
+
+
+/* Style for bot and user messages */
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Icon for messages */
+.message .message-icon {
+  margin-right: 8px;
+  color: #3f51b5; /* Adjust color as needed */
+}
+
+/* Text for bot and user messages */
+.message .message-text {
+  background-color: #f1f0f0; /* Adjust background color as needed */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Bot and User message styles */
+.message.bot .message-text,
+.message.user .message-text {
+  background-color: #f1f0f0; /* Same background color */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* User messages */
+.message.user .message-text {
+  background-color: #007bff; /* Same as bot messages */
+  color: #fff; /* Text color */
+}
+
+/* Existing styles... */
+
+/* Style for bot messages */
+.message.bot {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Icon for bot messages */
+.message.bot .message-icon {
+  margin-right: 8px;
+  color: #3f51b5; /* Adjust color as needed */
+}
+
+/* Text for bot messages */
+.message.bot .message-text {
+  background-color: #f1f0f0; /* Adjust background color as needed */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Existing styles... */
+
+.upload-button {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.upload-button input {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+/* Existing styles... */
+
+.icon {
+  font-size: 20px;
+  color: #007bff; /* Color same as voice recording icon */
+  cursor: pointer;
+}
+
+.upload-button {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.upload-button input {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+.upload-button .icon {
+  cursor: pointer;
+}
+
+
+.upload-button .fa-file-upload {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.chatbot-container {
+  max-width: 400px; /* Adjust as needed */
+  margin: auto;
+  background-color: #fff; /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 20px;
+}
+
+
+.chatbot-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.bot {
+  /* background-color: #e5e5ea; */
+}
+
+.user {
+  /* background-color: #007bff; */
+  color: #fff;
+}
+
+.chatbot-input {
+  display: flex;
+  align-items: center;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.chatbot-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chatbot-input button:hover {
+  background-color: #0056b3;
+}
+.chatbot-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align messages to the left */
+  padding: 10px;
+  height: 300px; /* Adjust height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.message {
+  /* background-color: #f2f2f2; */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.message.user {
+  align-self: flex-end; /* Align user messages to the right */
+  /*background-color: #f2f2f2;  Different color for user messages */
+  color: #070d02;
+
+}
+
+.chatbot-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.input-field {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button,
+.record-button,
+.upload-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+.send-button:hover,
+.record-button:hover,
+.upload-button:hover {
+  background-color: #45a049;
+}

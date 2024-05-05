@@ -1,0 +1,184 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    font-family: 'Montserrat', sans-serif; /* Use a Google Font for a more attractive font */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+.logo-text {
+  font-family: Arial, sans-serif; /* Example font family */
+  font-size: 18px; /* Example font size */
+  font-weight: bold; /* Example font weight */
+  color: white; /* Example text color */
+  text-transform: uppercase; /* Example text transformation */
+  /* Add any other styles you want */
+}
+  .logo img {
+    height: 50px;
+  }
+  
+  .navigation ul,
+  .user-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li,
+  .user-options ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navigation a,
+  .user-options a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold; /* Add bold font weight */
+  }
+  
+  .navigation a:hover,
+  .user-options a:hover {
+    color: #99ccff;
+  }
+  
+  /* Add a hover effect for the header */
+  .header:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Additional styling/effects as needed */
+  
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .logo {
+    /* Align logo to the left */
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between navigation links */
+  }
+  
+  .user-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .user-options ul li {
+    display: inline;
+    margin-right: 10px; /* Adjust spacing between user options */
+  }
+  
+  /* Additional styling as needed */
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004080; /* Dark blue background color */
+    color: white; /* Text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust the height of the logo */
+  }
+  
+  .navigation ul,
+  .user-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li,
+  .user-options ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navigation a,
+  .user-options a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .navigation a:hover,
+  .user-options a:hover {
+    color: #99ccff; /* Change color on hover */
+  }
+  
+  /* Additional styling/effects as needed */
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    font-family: 'Montserrat', sans-serif; /* Use a Google Font for a more attractive font */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .navigation ul,
+  .user-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li,
+  .user-options ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navigation a,
+  .user-options a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold; /* Add bold font weight */
+  }
+  
+  .navigation a:hover,
+  .user-options a:hover {
+    color: #99ccff;
+  }
+  
+  /* Add a hover effect for the header */
+  .header:hover {
+    background-color: #003366; /* Darken the background color on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Additional styling/effects as needed */
+      
